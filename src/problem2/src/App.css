@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  position: relative;
+  background-image: url("/public/blue-gradient.jpg");
+  background-size: 100% 100%;
+}
+
+.form-container {
+  padding: 20px 40px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* form.tsx */
+.form {
+  position: relative;
+  width: 400px;
+  min-width: 233px;
+  /* min-width: 0; */
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  border: 1px solid #838383;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.37);
+  -webkit-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.37);
+}
+
+.heading {
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.otp-heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.otp-container {
+  display: flex;
+  align-items: center;
+}
+
+.otp-text {
+  padding-right: 15px;
+}
+
+.send-otp {
+  text-decoration: underline;
+  cursor: pointer;
+}
